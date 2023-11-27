@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cafe</title>
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/vendors/all.min.css">
+  <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" media="all">
+
+</head>
+
+<body>
+  <!-- /--syntax first header--/ -->
+  <div class="header">
+    <div class="content-header">
+      <div class="img-header">
+        <a href="https://codlop.sa/ar"> <img class="image-header" src="images/codlop1.svg" alt=""></a>
+       
+      </div>
+      <div class="search-header">
+        <img class="for-search" src="images/filter.svg" alt="">
+        <input class="btn-header" type="text" placeholder="بحث ف القائمه">
+      </div>
+    </div>
+    <div class="main-header">
+      <h2 class="title-header">EN</h2>
+      <img class="icon-header" src="images/language.svg" alt="">
+    </div>
+  </div>
+
+  <!-- /*syntax end header*/ -->
+  <!-- **************************************************** -->
+  <!-- /* syntax first basket*/ -->
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="sections">
+        <div class="section-header">
+          <h2 class="pragraph-section"> استعلام عن الطلب --- -----  --- ---- ----  <i
+              class="fa-solid fa-arrow-right fa-rotate-180"></i> </h2>
+          <img class="icon-section" src="images/icon.svg" alt="">
+          <input class="inpt-section" type="text" placeholder="ادخل رقم الجوال او رقم الطلب">
+          <button type="button" class="btn btn-primary btn-section" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">
+            استعلام </button>
+        </div>
+        <div>
+          <h2 class="title-section"> الاقسام </h2>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                
+                <div class="card1">
+                  <a href="#salah1"><img class="image-swiper" src="images/tea-cup.svg" alt="">
+                 <h2 class="title-swiper"> مشروبات ساخنه </h2></a>
+                </div>
+              
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <a href="#salah2">    
+                  <img class="image-swiper" src="images/Group (1).svg" alt="">
+                                <h2 class="title-swiper">قهوة مقطرة </h2>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <a href="#salah3">
+                  <img class="image-swiper" src="images/Group.svg" alt="">
+                 
+                  <h2 class="title-swiper">مشروبات بارده</h2>
+                </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <a href="#salah4">
+                  <img class="image-swiper" src="images/croissant.svg" alt="">
+                
+                  <h2 class="title-swiper"> كرواسون </h2>
+                </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <img class="image-swiper" src="images/appetizer.svg" alt="">
+                  <h2 class="title-swiper"> المقبلات </h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <img class="image-swiper" src="images/surface1.svg" alt="">
+                  <h2 class="title-swiper"> السندواتشات </h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <img class="image-swiper" src="images/cake.svg" alt="">
+                  <h2 class="title-swiper">الحلويات</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <img class="image-swiper" src="images/ice-cream-cone.svg" alt="">
+                  <h2 class="title-swiper">ايسكريم</h2>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card1">
+                  <img class="image-swiper" src="images/Group (2).svg" alt="">
+                  <h2 class="title-swiper">طلبات جانبيه</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards-information">
+          <div class="main-section" id="salah1">
+            <img src="images/tea-cup.svg" alt="">
+            <h2 class="title-information">مشروبات ساخنة</h2>
+          </div>
+          <div class="hot-drinks">
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/Image(1).png" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">اسبريسو</h5>
+                <p class="card-text">الإسبريسو هو مشروب قهوة إيطالي يتم تحضيره عن طريق دفع الماء الساخن تح... </p>
+                <div class="icon-price">
+                  <h6> 12 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/a0521ba661311c01433e16e8f59f87b5.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">امريكانو</h5>
+                <p class="card-text">جرعة من قهوة الإسبريسو يضاف إليها الماء</p>
+                <div class="icon-price">
+                  <h6> 15 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/Image.png" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">كابتشينو</h5>
+                <p class="card-text">قهوة الإسبريسو مع الحليب المبخر والرغوة </p>
+                <div class="icon-price">
+                  <h6> 10 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/abbad7aacb4b209f532c0be66dcf5ea9.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> قهوه تركية</h5>
+                <p class="card-text"> قهوه معده بالطريقه التركيه التقلديه</p>
+                <div class="icon-price">
+                  <h6> 11 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/c09ca67ff384de184fd6dc1a2f5a71d4.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">شكولاته ساخنه</h5>
+                <p class="card-text"> شوكلاته محلاه بالسكر وحليب طازج</p>
+                <div class="icon-price">
+                  <h6> 15 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/7e7c920492d1d20a108b48ffcf3d151b.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">قهوه فرنسيه</h5>
+                <p class="card-text"> قهوه الاسبريسو مع الحليب علي الطريقه الفرنسيه مع قطعه بسكوت هديه</p>
+                <div class="icon-price">
+                  <h6> 15 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-section" id="salah2">
+            <img src="images/Group (1).svg" alt="">
+            <h2 class="title-information"> قهوه مقطره </h2>
+          </div>
+          <div class="hot-drinks">
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/779b2fc0aa4c75a85f5e3438fe810a08.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كيميكس-ساخن </h5>
+                <p class="card-text"> قهوه سوداء محضره بطريقه التقطير </p>
+                <div class="icon-price">
+                  <h6> 20 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/7557e9ac3410bbfccce13dc907b0bd89.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كيميكس بارد </h5>
+                <p class="card-text"> قهوه سوداء محضره بطريقع التقطير </p>
+                <div class="icon-price">
+                  <h6> 20 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-section" id="salah3">
+            <img src="images/Group.svg" alt="">
+            <h2 class="title-information"> مشروبات بارده </h2>
+          </div>
+          <div class="hot-drinks">
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/81c571587edbc341481054c9b36d7703.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> ايس لاتيه </h5>
+                <p class="card-text"> قهوة الاسبريسو معا الحليب المثلج </p>
+                <div class="icon-price">
+                  <h6> 17 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/2bcaacad6e6d75dc9ad1eb0d3e1f9861 (1).jpg" class="card-img-top image-information"
+                  alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> ايس مووكا </h5>
+                <p class="card-text">قهوة الاسبريسو معا الحليب المبخر والشوكلاته </p>
+                <div class="icon-price">
+                  <h6> 16 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/85ce27229beaeeeb6c24cab7e9019dcc.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> عصير منجا </h5>
+                <p class="card-text">عصير مانجا طازج مضاف اليه قطع الثلج </p>
+                <div class="icon-price">
+                  <h6> 50 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-section" id="salah4">
+            <img src="images/croissant.svg" alt="">
+            <h2 class="title-information"> كرواسون</h2>
+          </div>
+          <div class="hot-drinks">
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/e7d754b81c30aca1a4ce2aed2e22c74f.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون تقليدي </h5>
+                <p class="card-text"> الكرواسون الكلاسيكي المكون من عجينه خميره محشوه بالزبده والزبده</p>
+                <div class="icon-price">
+                  <h6> 12 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/7f5b8d531f05be895f5d0be16e532755.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون شوكلاته </h5>
+                <p class="card-text"> الكرواسون المحشو بالشوكلاته السائله او المبشوره</p>
+                <div class="icon-price">
+                  <h6> 15 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/b062c9c6303efee06296aa016081e7f1.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون الفواكه</h5>
+                <p class="card-text"> الكرواسون المحشو بالفواكه الطازجه او المجففه</p>
+                <div class="icon-price">
+                  <h6> 20 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/975b7cf5a27a7e1be137571011285e18.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون المكسرات </h5>
+                <p class="card-text"> الكرواسون المحشو بالمكسرات مثل اللوز او البندق او الجوز </p>
+                <div class="icon-price">
+                  <h6> 22 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/1142649b8f20300b64cb35d2ae38084a.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون الجبن </h5>
+                <p class="card-text"> الكرواسون المحشو بالجبن المبشور او الكريمه اللذيذه</p>
+                <div class="icon-price">
+                  <h6> 10 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards-drinks" dir="rtl">
+              <div class="image-drinks" data-bs-toggle="modal" data-bs-target="#salah">
+                <img src="images/df338047f9639102969d446753ef9bc8.jpg" class="card-img-top image-information" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"> كرواسون صوص الفراوله</h5>
+                <p class="card-text"> الكراوسون المحشو بقطع الفراوله مع صوص الفراوله والفانليا</p>
+                <div class="icon-price">
+                  <h6> 19 ريال سعودي</h6>
+                  <i class="fa-solid fa-plus plus-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <section class="basket">
+        <div>
+          <h2 class="title-basket">السله</h2>
+        </div>
+        <div class="content-basket">
+          <ul>
+            <li>
+              <div class="img-basket">
+                <div>
+                  <img class="image-basket" src="images/Image(1).png" alt="">
+
+                </div>
+                <div class="main-basket">
+                  <h2 class="basket-title">اسبريسو (صغير)</h2>
+                  <h3 class="title-basket">12 ريال سعودي</h3>
+                  <div class="counter">
+                    <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                    <input type="text" value="1">
+                    <span class="up" onClick='increaseCount(event, this)'>+</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="remove-basket">
+                <i class="fa-regular fa-trash-can icon-basket"></i>
+              </div>
+            </li>
+            <li>
+              <div class="img-basket">
+                <div>
+                  <img class="image-basket" src="images/a0521ba661311c01433e16e8f59f87b5.jpg" alt="">
+
+                </div>
+                <div class="main-basket">
+                  <h2 class="basket-title"> امريكانو </h2>
+                  <h3 class="title-basket">15 ريال سعودي</h3>
+                  <div class="counter">
+                    <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                    <input type="text" value="1">
+                    <span class="up" onClick='increaseCount(event, this)'>+</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="remove-basket">
+                <i class="fa-regular fa-trash-can icon-basket"></i>
+              </div>
+            </li>
+          </ul>
+          <div class="prices-basket">
+            <div class="main-price-basket">
+              <h2 class="pragraph-basket">المجموع الفرعي</h2>
+              <p> 150 ريال سعودي</p>
+
+            </div>
+            <div class="price-basket">
+              <h2 class="pragraph-basket">الضريبه (15%)</h2>
+              <p> 50 ريال سعودي</p>
+            </div>
+            <div class="total">
+              <h2> الاجمالي </h2>
+              <p> 200 ريال سعودي </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="information-basket">
+          <h2 class="information-title">معلوماتك</h2>
+          <div class="inpt-icon">
+            <input class="information-inpt" type="text" class="form-control" placeholder="الاسم">
+            <img class="user-icon" src="images/icon (1).svg" alt="">
+          </div>
+          <div class="inpt-icon">
+            <input class="information-inpt" type="text" class="form-control" placeholder="رقم الجوال">
+            <img class="mobile-icon" src="images/icon (2).svg" alt="">
+          </div>
+        </div>
+        <div class="content-check">
+          <h2 class="title-check">طريقة الاستلام</h2>
+          <div class="check-receive">
+            <div class="form-check ">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"> توصيل لمكاني </label>
+            </div>
+            <div class="form-check  ">
+              <input class=" form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2"> من البوفيه </label>
+            </div>
+          </div>
+        </div>
+        <div class="Additional-details">
+          <h2 class="title-detalis">تفاصيل اضافيه</h2>
+          <div class="form-floating">
+            <textarea class="form-control" style="height: 100px" placeholder="اكتب هنا جميع التفاصيل الاضافيه (اختياري)"
+              id="floatingTextarea"></textarea>
+            <label for="floatingTextarea"></label>
+          </div>
+          <div class="btns-detalis">
+            <button class="btn-addition"> اتمام الطلب</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /*syntax end basket*/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- /*syntax start model first information*/ -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal1-->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">استعلام عن الطلب</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <div class="name-accordion">
+                      <div class="name-request">
+                        <h2> #12345# </h2>
+                        <h3> 80 ريال سعودي </h3>
+                      </div>
+                      <div class="request">
+                        <p>
+                          انتظار الموافقه
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/a0521ba661311c01433e16e8f59f87b5.jpg" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/Image(1).png" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prices-basket price-eccordion">
+                    <div class="main-price-basket">
+                      <h2 class="pragraph-basket">المجموع الفرعي</h2>
+                      <p> 150 ريال سعودي</p>
+
+                    </div>
+                    <div class="price-basket">
+                      <h2 class="pragraph-basket">الضريبه (15%)</h2>
+                      <p> 50 ريال سعودي</p>
+                    </div>
+                    <div class="total">
+                      <h2> الاجمالي </h2>
+                      <p> 200 ريال سعودي </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <div class="name-accordion content-name-accordion">
+                      <div class="name-request">
+                        <h2> #12345# </h2>
+                        <h3> 80 ريال سعودي </h3>
+                      </div>
+                      <div class="request">
+                        <p>
+                          مكتمل
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/a0521ba661311c01433e16e8f59f87b5.jpg" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/Image(1).png" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prices-basket price-eccordion">
+                    <div class="main-price-basket">
+                      <h2 class="pragraph-basket">المجموع الفرعي</h2>
+                      <p> 150 ريال سعودي</p>
+
+                    </div>
+                    <div class="price-basket">
+                      <h2 class="pragraph-basket">الضريبه (15%)</h2>
+                      <p> 50 ريال سعودي</p>
+                    </div>
+                    <div class="total">
+                      <h2> الاجمالي </h2>
+                      <p> 200 ريال سعودي </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <div class="name-accordion content-name2-accordion">
+                      <div class="name-request">
+                        <h2> #12345# </h2>
+                        <h3> 80 ريال سعودي </h3>
+                      </div>
+                      <div class="request">
+                        <p>
+                          ملغي
+                        </p>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/a0521ba661311c01433e16e8f59f87b5.jpg" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                    <div class="accordion-body">
+                      <div class="image-content">
+                        <div class="image-Accordion">
+                          <img class="img-accordion" src="images/Image(1).png" alt="">
+                        </div>
+                        <div class="content-accordion">
+                          <h2>اسبريسو (صغير)</h2>
+                          <h6> 12 ريال سعودي</h6>
+                        </div>
+                      </div>
+                      <div class="price-accordion">
+                        <h2>5<i class="fa-solid fa-xmark"></i></h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prices-basket price-eccordion">
+                    <div class="main-price-basket">
+                      <h2 class="pragraph-basket">المجموع الفرعي</h2>
+                      <p> 150 ريال سعودي</p>
+
+                    </div>
+                    <div class="price-basket">
+                      <h2 class="pragraph-basket">الضريبه (15%)</h2>
+                      <p> 50 ريال سعودي</p>
+                    </div>
+                    <div class="total">
+                      <h2> الاجمالي </h2>
+                      <p> 200 ريال سعودي </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /*syntax end model*/ -->
+    <!--*********** Modal2***************-->
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#salah">
+ اسبريسو
+</button> -->
+
+    <!-- Modal  اسبريسو-->
+    <div class="modal fade " id="salah" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+      <div class="modal-dialog ">
+        <div class="modal-content models">
+          <div class="modal-header">
+            <div class="image-model">
+              <img class="model-img" src="images/Image(1).png" alt="">
+            </div>
+            <div class="title-model">
+              <h5 class="modal-title" id="staticBackdropLabel"> اسبريسو ساخن- بنكهة الفانليا</h5>
+              <h6>12 ريال سعودي </h6>
+              <p>
+                الإسبريسو هو مشروب قهوة إيطالي يتم تحضيره عن طريق دفع الماء الساخن تحت ضغط عالٍ من خلال حبيبات البن
+                المطحونة ناعماً. يتميز الإسبريسو بطعمه القوي والغني والكريمي.
+              </p>
+              <h3> الكميه </h3>
+              <div class="counter">
+                <span class="down downs" onClick='decreaseCount(event, this)'>-</span>
+                <input type="text" value="1">
+                <span class="up ups" onClick='increaseCount(event, this)'>+</span>
+              </div>
+              <h2> الحجم </h2>
+              <div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">كبير</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">وسط</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">صغير</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                </div>
+              </div>
+            </div>
+          <div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          </div>
+          <div class="modal-bodys">
+       
+            <div class="modal-footer">
+              <button class="btn-model"> اضافه الي السله </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /*syntax end model*/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {});
+      </script>
+      <script type="text/javascript">
+        function increaseCount(a, b) {
+          var input = b.previousElementSibling;
+          var value = parseInt(input.value, 10);
+          value = isNaN(value) ? 0 : value;
+          value++;
+          input.value = value;
+        }
+        function decreaseCount(a, b) {
+          var input = b.nextElementSibling;
+          var value = parseInt(input.value, 10);
+          if (value > 1) {
+            value = isNaN(value) ? 0 : value;
+            value--;
+            input.value = value;
+          }
+        }
+      </script>
+<script src="js/vendors/jquery.js" ></script>
+      <script src="js/vendors/all.min.js"></script>
+      <script src="js/vendors/bootstrap.bundle.min.js"></script>
+      <script src="js/swiper.min.js"></script>
+      <script src="js/main.js"></script>
+
+</body>
+
+</html>
